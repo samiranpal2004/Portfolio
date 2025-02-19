@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio - Samiran Pal</title>
+    <link rel="icon" href="web-logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/39e5fa2ffc.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="S (1).png" class="logo" />
+          <ul>
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header-text">
+          <p>Frontend Web-Developer</p>
+          <h1>Hi, I'm <span>Samiran Pal</span> From India</h1>
+        </div>
+      </div>
+    </div>
+
+    <!-- -----------about------------ -->
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-2">
+            <h1 class="subtitle">About Me</h1>
+            <p>
+              Hi, I'm Samiran Pal, a passionate web developer currently learning and exploring the world of front-end technologies. With a strong interest in HTML, CSS, and JavaScript, I aim to build visually appealing and user-friendly websites. I'm dedicated to continuously improving my skills and keeping up with the latest web development trends. Through my projects, I strive to solve problems creatively and deliver high-quality solutions.</p>
+
+             <p> <br> Apart from coding, I enjoy participating in hackathons and collaborating with other tech enthusiasts. I am always eager to learn new things and look forward to expanding my knowledge in both front-end and back-end development
+            </p>
+            <div class="tab-titles">
+              <p
+                class="tab-links active-links"
+                onclick="opentab(event, 'skills')"
+              >
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab(event, 'experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab(event, 'education')">
+                Education
+              </p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>DSA</span><br />Problem Solving in C++</li>
+                <li><span>Web Development</span><br />Web App Development</li>
+                <li>
+                  <span>TechStack Known</span><br />C, C++, HTML, CSS, JavaScript, React Js
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li><span>UI/UX</span><br />experience Web/App interfaces</li>
+                <li><span>Web Development</span><br />Web App Development</li>
+                <li>
+                  <span>App Development</span><br />Building Android/iOS Apps
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>10th</span><br />Got 95% from WBBSE(2021)</li>
+                <li><span>12th</span><br />Got 72% from WBCHSE(2023)</li>
+                <li>
+                  <span>Bachelors</span><br />Currently pursuing B.Tech in CSE(AIML) from JIS College of Engineering.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="about-col-1">
+            <img src="dp.jpg" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ----------------------services------------------------- -->
+
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>
+              I create responsive and user-friendly websites that focus on clean design and smooth functionality. Using HTML, CSS, and JavaScript, I bring ideas to life by building custom websites tailored to your needs. Whether it's a simple landing page or a more complex multi-page site, I ensure that your web presence stands out and provides a great user experience. I am also continuously learning new technologies to keep up with modern web development trends and deliver high-quality solutions.
+            </p>
+            <a href="#">Learn More...</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop"></i>
+            <h2>UI/UX Design</h2>
+            <p>
+              I focus on designing intuitive and engaging user interfaces that enhance the overall experience of your website or application. By combining creativity with user-centered design principles, I ensure that the interfaces I create are not only visually appealing but also easy to navigate. My goal is to deliver designs that make interactions seamless and enjoyable, improving usability while keeping aesthetics in mind.
+            </p>
+            <a href="#">Learn More...</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-app-store"></i>
+            <h2>App Design</h2>
+            <p>
+              I develop functional and efficient applications tailored to meet specific user needs. Using modern development practices, I build apps that are both reliable and scalable, ensuring smooth performance across devices. From initial concept to deployment, I work to create apps that solve real-world problems while maintaining a great user experience.
+            </p>
+            <a href="#">Learn More...</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ----------------------portfolio------------------------- -->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="work-1.png" />
+            <div class="layer">
+              <h3>Social Media App</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Consequuntur provident enim sunt veniam deserunt eveniet dolor.
+                Dolorem repellendus odit nostrum.
+              </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="work-2.png" />
+            <div class="layer">
+              <h3>Music App</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Consequuntur provident enim sunt veniam deserunt eveniet dolor.
+                Dolorem repellendus odit nostrum.
+              </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="work-3.png" />
+            <div class="layer">
+              <h3>Online Shopping App</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Consequuntur provident enim sunt veniam deserunt eveniet dolor.
+                Dolorem repellendus odit nostrum.
+              </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+      </div>
+    </div>
+
+    <!-- ------------------contact--------------------- -->
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i> palsamiranpal2004@gmail.com </p>
+            <p><i class="fa-solid fa-square-phone"></i> +91 6295227286</p>
+            <div class="social-icons">
+              <a href="https://www.linkedin.com/in/samiran-pal/"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="https://www.instagram.com/kabil_5am/"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://github.com/samiranpal2004"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <a href="my-cv.pdf" download class="btn btn2">Dawnload CV</a>
+          </div>
+          <div class="contact-right">
+            <form>
+              <input type="text" name="name" placeholder="Your Name" required/>
+              <input type="email" name="email" placeholder="Your Email" required/>
+              <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function opentab(event, tabname) {
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        for (var tablink of tablinks) {
+          tablink.classList.remove("active-links");
+        }
+        for (var tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+
+        event.currentTarget.classList.add("active-links");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+  </body>
+</html>
